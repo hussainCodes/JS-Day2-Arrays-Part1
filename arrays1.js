@@ -1,0 +1,10 @@
+let groceries = ["apple", "banana", "tomato", "pineapple", "passionfruit", "cherry"];
+console.log(groceries[1]);
+console.log(groceries.length);
+console.log(groceries[groceries.length - 1]);
+let lastFruit = groceries.pop();
+//console.log(lastFruit);
+groceries.push("rasberry", "Avocado");
+console.log(groceries);
+let firstThreeItems = groceries.slice(0,3);
+console.log(firstThreeItems);
